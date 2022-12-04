@@ -1,9 +1,3 @@
-def shift_left(d, k):
-  if (k < 1) or (k > len(d) - 1):
-    return
-  x = remove_first(d)
-  insert_last(d,x)
-  shift_left(d,k-1)
 ##########################################
 #Question 2:
 #Given a data structure D supporting the four first/last sequence operations:
