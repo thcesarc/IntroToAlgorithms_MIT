@@ -6,12 +6,10 @@ def selection_sort_recursive(array,index):
   #find biggest element
   #swap
   #call for length-1
-
   if index != 0 :
     max_index = find_max_index(array,index-1)
     swap_to_end(array, max_index,index-1)
     selection_sort_recursive(array,index-1)
-
 
 def find_max_index(array,index):
   max   = array[0]
