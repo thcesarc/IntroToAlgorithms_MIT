@@ -12,9 +12,9 @@ rnd.seed(rnd.randint(10))
 #at a time
 #########################################
 array = rnd.randint(0,1000,10)          #
-print('initial array:  ', array)         #
+print('initial array:  ', array)        #
 bubble_sort(array)                      #
-print('bubble sort  :  ',array,'\n')     #
+print('bubble sort  :  ',array,'\n')    #
 #########################################
 
 #SELECTION SORT
