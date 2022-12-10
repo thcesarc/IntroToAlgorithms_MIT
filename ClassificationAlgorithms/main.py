@@ -1,6 +1,7 @@
 from bubblesort     import bubble_sort
 from selectionsort  import selection_sort
-from mergesort      import *
+#from mergesort      import *
+from merge_sort     import *
 
 from numpy import random as rnd
 rnd.seed(rnd.randint(10))
@@ -21,7 +22,7 @@ print('bubble sort  :  ',array,'\n')    #
 #recursevely inserts the greater element 
 #at the end of the array
 #########################################
-array = rnd.randint(0,1000,10)          #
+array = rnd.randint(0,1001,10)          #
 print('initial array:  ', array)        #
 selection_sort(array)                   #
 print('selection sort: ',array,'\n')    #
@@ -34,5 +35,5 @@ print('selection sort: ',array,'\n')    #
 array = rnd.randint(0,1000,10)          #
 print('initial array:  ', array)        #
 merge_sort(array)                       #
-print('selection sort: ',array,'\n')    #
+print('merge sort:     ',array,'\n')    #
 #########################################
