@@ -1,6 +1,5 @@
 from bubblesort     import bubble_sort
 from selectionsort  import selection_sort
-#from mergesort      import *
 from merge_sort     import *
 
 from numpy import random as rnd
