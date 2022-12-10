@@ -30,7 +30,7 @@ def two_fingers_comparison(array, leftarray, rightarray):
         array[k] = rightarray[j]
         j=j+1
       k=k+1
-  #remaining items  
+  #remaining elements
   while i < len(leftarray):
       array[k] = leftarray[i]
       i=i+1
